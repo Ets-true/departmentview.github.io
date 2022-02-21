@@ -1,0 +1,19 @@
+body{
+    background-color: red;
+    width: 45px;
+    height: 67px;
+    @media screen {
+        height: 12px;
+    }
+    @media touch {
+        height: 12px;
+    }
+}
+
+body{
+    background-color: purple;
+    border: 2px;
+    @media screen {
+        line-height: 12px;
+    }
+}
